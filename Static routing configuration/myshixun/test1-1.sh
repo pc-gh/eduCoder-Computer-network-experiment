@@ -1,0 +1,1 @@
+grep -C0  '"name"\|adapter_number\|port_number\|node_type' second/second.gns3
