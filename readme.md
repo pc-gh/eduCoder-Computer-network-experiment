@@ -12,11 +12,11 @@
 
 3、第三关静态路由配置实验特别提出批评：当你R1、R2、R3三个路由器静态路由设置完成之后开心点击测评你会发现，结果一直是要我们去查看R1、R2、R3配置信息是否已经成功导出到项目目录下，我顿时就？？？最后发现怎么做输出结果就是建议查看R1、R2、R3配置信息是否已经成功导出到项目目录下。。。好吧，改脚本文件，没错，改`test1-3.sh`配置文件。
 
-![image-20200430003924070](./staticRoutingConfiguration/images/image-20200430003924070.png)
+![image-20200430003924070](https://github.com/pc-gh/eduCoder-Computer-network-experiment/blob/master/staticRoutingConfiguration/images/image-20200430003924070.png)
 
 完成三关之后，我想，室友账号环境下的机器是不是和我的是在同一网段下呢？登录一查看，果然，额，当时忘记截图了！自己就操作了一波内网传输文件把自己`/data/workspace/myshixun/`目录下的`test1-1.sh`、`test1-2.sh`、`test1-3.sh`还有`/data/workspace/myshixun/second`下的`PC1_startup.vpc`、`PC2_startup.vpc`、`R1_i1_startup-config.cfg`、`R2_i2_startup-config.cfg`、`R3_i3_startup-config.cfg`传到室友虚拟机对于目录下。然后就”迅速“过了第二关和第三关（第一关室友提前过了），还截了图：
 
-![image-20200430005129777](./staticRoutingConfiguration/images/image-20200430005129777.png)
+![image-20200430005129777](https://github.com/pc-gh/eduCoder-Computer-network-experiment/blob/master/staticRoutingConfiguration/images/image-20200430005129777.png)
 
 那么摸清楚了这个实验的套路之后应该怎么让大家一块“快”起来呢？首先想到的是用sh脚本去`wget`我虚拟机的文件，然后惊讶的压线好像虚拟机的ip会变！好吧，不是环境自带了git吗？ok。
 
