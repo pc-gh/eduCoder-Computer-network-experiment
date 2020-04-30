@@ -52,7 +52,7 @@ bash runStaticRoutingConfiguration.sh
 
 #### 目录解析：
 
-静态路由实验目录：eduCoder-Computer-network-experiment\staticRoutingConfiguration
+静态路由实验目录：eduCoder-Computer-network-experiment/staticRoutingConfiguration
 
 静态路由实验运行脚本：runStaticRoutingConfiguration.sh
 
