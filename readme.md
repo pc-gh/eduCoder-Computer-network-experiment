@@ -1,4 +1,4 @@
-### educoder实验平台计算机网络实验小秘籍
+### eduCoder实验平台计算机网络实验小秘籍
 
 #### 以平台静态路由配置实验为例
 
@@ -8,7 +8,7 @@
 
 1、`export config`设备配置信息到`/data/workspace/myshixun/second`目录下。
 
-2、千万记得`save`保存PC的配置，路由也要write。
+2、千万记得`save`保存PC的配置，路由也要`write`。
 
 3、第三关静态路由配置实验特别提出批评：当你R1、R2、R3三个路由器静态路由设置完成之后开心点击测评你会发现，结果一直是要我们去查看R1、R2、R3配置信息是否已经成功导出到项目目录下，我顿时就？？？最后发现怎么做输出结果就是建议查看R1、R2、R3配置信息是否已经成功导出到项目目录下。。。好吧，改脚本文件，没错，改`test1-3.sh`配置文件。
 
@@ -26,7 +26,7 @@
 
 第二步：把相关文件上传到仓库中。
 
-第三步：编写简单的bash脚本文件让其他同学在clone仓库到虚拟机后运行一个脚本就可以把文件mv到正确目录。
+第三步：编写简单的bash脚本文件让其他同学在`clone`仓库到虚拟机后运行一个脚本就可以把文件`mv`到正确目录。
 
 第四步：验证使用！
 
@@ -38,7 +38,7 @@
 git clone https://github.com/pc-gh/eduCoder-Computer-network-experiment.git
 ```
 
-2、进入目录下的eduCoder-Computer-network-experiment文件夹运行脚本runStaticRoutingConfiguration.sh
+2、进入目录下的`eduCoder-Computer-network-experiment`文件夹运行脚本`runStaticRoutingConfiguration.sh`
 
 ```sh
 bash runStaticRoutingConfiguration.sh
@@ -48,7 +48,7 @@ bash runStaticRoutingConfiguration.sh
 
 #### 目录解析：
 
-静态路由实验目录：eduCoder-Computer-network-experiment、staticRoutingConfiguration
+静态路由实验目录：eduCoder-Computer-network-experiment\staticRoutingConfiguration
 
 静态路由实验运行脚本：runStaticRoutingConfiguration.sh
 
