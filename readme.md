@@ -14,6 +14,10 @@
 
 ![Image text](https://github.com/pc-gh/eduCoder-Computer-network-experiment/blob/master/staticRoutingConfiguration/images/image-20200430003924070.png)
 
+这是一种方法，但是这么改和出题老师的意图不符。更加符合老师意图的改法应该是这样子：
+
+![Image text](https://github.com/pc-gh/eduCoder-Computer-network-experiment/blob/master/staticRoutingConfiguration/images/image-20200430083521445.png)
+
 完成三关之后，我想，室友账号环境下的机器是不是和我的是在同一网段下呢？登录一查看，果然，额，当时忘记截图了！自己就操作了一波内网传输文件把自己`/data/workspace/myshixun/`目录下的`test1-1.sh`、`test1-2.sh`、`test1-3.sh`还有`/data/workspace/myshixun/second`下的`PC1_startup.vpc`、`PC2_startup.vpc`、`R1_i1_startup-config.cfg`、`R2_i2_startup-config.cfg`、`R3_i3_startup-config.cfg`传到室友虚拟机对于目录下。然后就”迅速“过了第二关和第三关（第一关室友提前过了），还截了图：
 
 ![Image text](https://github.com/pc-gh/eduCoder-Computer-network-experiment/blob/master/staticRoutingConfiguration/images/image-20200430005129777.png)
@@ -53,4 +57,3 @@ bash runStaticRoutingConfiguration.sh
 静态路由实验运行脚本：runStaticRoutingConfiguration.sh
 
 其他实验脚本有待开发。。。
-
